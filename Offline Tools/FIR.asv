@@ -1,0 +1,18 @@
+% Clear workspace, command window, and close all figures
+clear; clc; close all;
+
+% Define parameters
+fs = 100; % Sampling frequency
+n = 2;    % Filter order
+w = 8;    % Cutoff frequency
+
+% Create Butterworth filter coefficients
+[b, a] = butter(n, (w/(fs/2)));
+
+% Generate white noise signal
+t = 0:1/fs:1; % Time vector (1 second duration)
+noise = randn(size(t)); % Generate white noise
+
+% Filter the white noise signal
+filtered_noise = filter(b, a, noise);
+
