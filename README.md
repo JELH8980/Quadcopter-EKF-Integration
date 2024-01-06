@@ -7,7 +7,7 @@ LQR Controller Exploration: The controller utilizes a basic Linear Quadratic Reg
 
 User-Friendly Tuning: Tinker with the controller parameters using a straightforward interface, allowing for basic customization and performance optimization.
 
-Visualization for Understanding: Gain insights into your drone's behavior with simple visualization tools. Basic plots and graphics help illustrate its dynamics, control responses, and sensor fusion outputs.
+Visualization for Understanding: Gain insights into a drone's behavior with simple visualization tools. Basic plots and graphics help illustrate its dynamics, control responses, and sensor fusion outputs.
 
 Plant Model Simplification: The plant model attempts to capture some aspects of nonlinear dynamics and includes basic disturbances for a somewhat realistic simulation.
 
@@ -22,4 +22,4 @@ DISCLAIMER:
 The pictures used in the 'OverheadPictures' directory are sourced from Google Earth and other relevant educational sources. While the majority of the images are from Google Earth, it's important to note that exceptions exist. This repository is not intended for commercial or practical applications.
 
 ALSO:
-Note that this project is proteced under the included license, read it before exploiting the code.
+Note that this project is protected under the included license, read it before exploiting the code.
