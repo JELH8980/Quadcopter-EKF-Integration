@@ -17,3 +17,9 @@ Humble Note:
 This software is a modest attempt to exercise my academic skills. The mission planner is provided to assist users in exploring the software. Feel free to adapt, modify, and experiment with the code, keeping in mind its simplicity and the ongoing learning process.
 
 Your insights, feedback, and contributions are genuinely appreciated. Thank you for exploring this project.
+
+DISCLAIMER:
+The pictures used in the 'OverheadPictures' directory are sourced from Google Earth and other relevant educational sources. While the majority of the images are from Google Earth, it's important to note that exceptions exist. This repository is not intended for commercial or practical applications.
+
+ALSO:
+Note that this project is proteced under the included license, read it before exploiting the code.
