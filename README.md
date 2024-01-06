@@ -1,4 +1,4 @@
-Hello and welcome to the Drone Dynamics and Localization Software repository! This MATLAB-based project reflects my journey, combining concepts from my Bachelor's in Vehicle Engineering and my Master's in Robotics Systems and Control. It's an exploration into drone dynamics and localization, incorporating techniques for sensor fusion of GPS and IMU data.
+Drone Dynamics and Localization Software repository. This MATLAB-based project reflects my journey, combining concepts from my Bachelor's in Vehicle Engineering and my Master's in Robotics Systems and Control. It's an exploration into drone dynamics and localization, incorporating techniques for sensor fusion of GPS and IMU data.
 
 Key Features:
 Sensor Fusion Simplicity: The software integrates GPS and IMU data using standard sensor fusion techniques to enhance drone localization accuracy.
