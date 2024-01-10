@@ -99,10 +99,10 @@ function evaluate_configuration(varargin)
 
         
 
-        settingStruct.EKF.R_noise = matfile(append(pwd, '/System Parameters/ProcNoiseCov.mat')).R_noise; 
-        settingStruct.EKF.Q_noise = matfile(append(pwd, '/System Parameters/MeasNoiseCov.mat')).Q_noise; 
-        settingStruct.LQR.Q = matfile(append(pwd, '/System Parameters/CostState.mat')).Q;
-        settingStruct.LQR.R = matfile(append(pwd, '/System Parameters/CostInput.mat')).R;
+        settingStruct.EKF.R_noise = matfile(append(pwd, '/System Parameters/EKF2/ProcNoiseCov.mat')).R_noise; 
+        settingStruct.EKF.Q_noise = matfile(append(pwd, '/System Parameters/EKF2//MeasNoiseCov.mat')).Q_noise; 
+        settingStruct.LQR.Q = matfile(append(pwd, '/System Parameters/EKF2/CostState.mat')).Q;
+        settingStruct.LQR.R = matfile(append(pwd, '/System Parameters/EKF2/CostInput.mat')).R;
         settingStruct.pathinfo = wpts;
         
     

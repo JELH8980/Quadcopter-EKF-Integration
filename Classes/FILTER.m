@@ -4,7 +4,7 @@ classdef FILTER
     
     properties
         R (12, 12) double {mustBeReal, mustBeFinite}
-        Q (9,9) double {mustBeReal, mustBeFinite}
+        Q  double {mustBeReal, mustBeFinite}
         Sigma_0 (12,12) double {mustBeReal, mustBeFinite}
         mu_0 (12,1) double {mustBeReal, mustBeFinite}
     end

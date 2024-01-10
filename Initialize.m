@@ -14,11 +14,10 @@ addpath(append(pwd, '/Classes'));
 
 addpath(append(pwd, '/Functions'));
 
-addpath(append(pwd, '/Functions/EKF'));
+addpath(append(pwd, '/Functions/EKF2')); % KF, EKF or EKF2 
 
-addpath(append(pwd, '/Functions/KF'));
 
-addpath(append(pwd, '/System Parameters'));
+addpath(append(pwd, '/System Parameters/EKF2')); %Add EKF2 if EKF2
 
 % Initialize parameters
 

@@ -24,10 +24,11 @@ if choice == 0 % Mission
 end
 
 if choice == 1     % Hover
-    x = 0; y = 0; z = 10;
-    wpts = [x,y,z]';
+    x_step = 0; y_step = 0; z_step = 10;
+    wpts = [x_step, y_step, z_step]';
     tpts = t_end;
     resultS.Trajectory = repmat(wpts, 1, numel(t_vec));
+    resultB0.Trajectory = S2B0(resultS.Trajectory, false);
     YAWref = zeros(1,numel(t_vec));
 
     traj_name = [num2str(t_end), 'Hover', num2str(x_step), num2str(y_step), num2str(z_step)];
@@ -42,8 +43,10 @@ elseif choice == 2      % Straight
     end
 
     x_step = 100;
+    y_step = 10;
+    z_step = 30;
 
-    wpts = [0, 0, 0; x_step, 0, 0]';
+    wpts = [0, 0, 0; x_step, y_step, z_step]';
     tpts = (0:t_end/(length(wpts(1,:))-1):t_end);
 
     traj_name = [num2str(t_end), 'Straight', num2str(x_step), num2str(y_step), num2str(z_step)];
@@ -64,12 +67,11 @@ elseif choice == 3      % Box
                 0,      y_step, gnd_clearance; 
                 x_step, y_step, gnd_clearance; 
                 x_step, y_step,        z_step;
-                x_step, y_step, gnd_clearance;
-                0,      y_step, gnd_clearance;
+                x_step,      0,        z_step;
+                0,           0,        z_step;
                 0,           0, gnd_clearance;]';
     
-        tpts = linspace(0,t_end,size(wpts,2));
-    
+        tpts = linspace(0, t_end, size(wpts,2));
         traj_name = [num2str(t_end), 'Box', num2str(x_step), num2str(y_step), num2str(z_step)];
 
     else
@@ -215,7 +217,6 @@ if sequential
 
 
     t_vec = 0:1/imu.f:t_end+added_time;
-    
 
 
     resultS.Trajectory = cubicpolytraj(wpts, tpts, t_vec);

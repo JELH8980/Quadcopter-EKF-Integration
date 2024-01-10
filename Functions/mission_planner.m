@@ -1,3 +1,16 @@
+% Mission Planner for Educational Purposes
+%
+% This MATLAB script is developed for educational purposes only. The pictures
+% used in the 'OverheadPictures' directory are obtained from Google Earth among other sources and
+% are intended to demonstrate various capabilities of drones. The usage of
+% these pictures are purely educational, and there is no intention for
+% commercial or practical applications in relation to the locations displayed.
+%
+% Author: Ludwig Horvath
+% Date: 1/6/2024
+
+
+
 function mission_planner()
     addpath(append(pwd, '\OverheadPictures'));
 
@@ -138,7 +151,6 @@ function mission_planner()
                 set(fig, 'WindowKeyReleaseFcn', @keyReleasedCallback);
                 set(fig, 'WindowScrollWheelFcn', @mouseScrollCallback);
             case 'Completion'
-                fprintf('Press Enter to proceed\n')
                 return
         end
 
@@ -219,6 +231,7 @@ function mission_planner()
              save('missionwaypoints.mat', 'wpts');
              disp('Saving waypoints for trajectory generation')
              close(fig)
+             fprintf('Press Enter to proceed\n')
              currentState = 'Completion';
              
          end
