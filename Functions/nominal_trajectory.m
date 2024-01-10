@@ -1,3 +1,7 @@
+% Author: Ludwig Horvath, Martin Petré
+
+% Date: 12/19/2023
+
 function varargout = nominal_trajectory(choice, t_end, imu)
 
 

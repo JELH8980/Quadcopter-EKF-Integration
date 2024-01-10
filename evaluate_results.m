@@ -1,3 +1,7 @@
+% Author: Ludwig Horvath, Martin Petré
+
+% Date: 12/19/2023
+
 clear all; close all; clc
 
 addpath(append(pwd, '/Functions'));

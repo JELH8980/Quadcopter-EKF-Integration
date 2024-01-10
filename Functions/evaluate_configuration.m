@@ -1,3 +1,7 @@
+% Author: Ludwig Horvath, Martin Petré
+
+% Date: 12/19/2023
+
 function evaluate_configuration(varargin)
     out = varargin{1};
     wpts = varargin{2};

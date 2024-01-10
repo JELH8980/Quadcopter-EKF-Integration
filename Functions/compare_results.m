@@ -1,3 +1,7 @@
+% Author: Ludwig Horvath, Martin Petré
+
+% Date: 12/19/2023
+
 function compare_results(varargin)
 % Function to compare results based on user input and visualize data
 

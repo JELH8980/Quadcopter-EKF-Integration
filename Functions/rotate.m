@@ -1,3 +1,8 @@
+% Author: Ludwig Horvath, Martin Petré
+
+% Date: 12/19/2023
+
+
 function R = rotate(axis, angle, direction)
 
 angle = rad2deg(angle);

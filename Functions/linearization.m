@@ -1,3 +1,8 @@
+% Author: Ludwig Horvath, Martin Petré
+
+% Date: 12/19/2023
+
+
 function [A, B] = linearization(g_num, I, m_num, psi_stationary)
 syms Phi Theta Psi p q r u v w x y z Ix Iy Iz Tx Ty Tz g ft m
 

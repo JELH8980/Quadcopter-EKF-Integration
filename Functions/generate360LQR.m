@@ -1,3 +1,7 @@
+% Author: Ludwig Horvath, Martin Petré
+
+% Date: 12/19/2023
+
 function L = generate360LQR(Q,R,I,m,g)
 
 L = zeros(4,12,360);

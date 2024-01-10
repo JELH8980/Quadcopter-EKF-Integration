@@ -1,3 +1,7 @@
+% Author: Ludwig Horvath, Martin Petré
+
+% Date: 12/19/2023
+
 classdef FILTER
     %FILTER Summary of this class goes here
     %   Detailed explanation goes here

@@ -1,4 +1,7 @@
-% Will be able to animate flight, old code, just want to reformat it a bit
+% Author: Ludwig Horvath, Martin Petré
+
+% Date: 12/19/2023
+
 function animate_flight(varargin)
     out = varargin{1};
     drone = varargin{2};

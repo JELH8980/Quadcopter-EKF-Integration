@@ -1,3 +1,7 @@
+% Author: Martin Petré
+
+% Date: 12/19/2023
+
 function [SortedDataset, SortedValues] = sort_result(Dataset, choice)
     
     values = zeros(numel(Dataset),1);
