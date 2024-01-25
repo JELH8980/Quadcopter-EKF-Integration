@@ -1,7 +1,7 @@
 Key Features:
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------
-Sensor Fusion Simplicity: The software integrates GPS and IMU data using standard sensor fusion techniques to enhance drone localization accuracy.
+Sensor Fused State Feedback: The software integrates GPS and IMU data using standard sensor fusion techniques to enhance drone localization accuracy and using is to produce reliable feedback.
 
 LQR Controller Exploration: The controller utilizes a basic Linear Quadratic Regulator (LQR) with a simple update based on the drone's yaw angle.
 
