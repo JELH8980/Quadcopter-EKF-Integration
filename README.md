@@ -19,3 +19,6 @@ Manual Control Input: Test the quadcopter performance by manually controlling it
 
 Your insights, feedback, and contributions are genuinely appreciated. Thank you for exploring this project.
 
+---------------------------------------------------------------------------------------------------------------------------------------------------
+
+For instructions, or better understanding of the flow of the software, see "Instructions.png".
