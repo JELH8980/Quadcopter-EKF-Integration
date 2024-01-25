@@ -22,9 +22,9 @@ Your insights, feedback, and contributions are genuinely appreciated. Thank you 
 ---------------------------------------------------------------------------------------------------------------------------------------------------
 
 For instructions, or better understanding of the flow of:
-  * Software (high level), see ""Instructions/Instructions.png".
-  * Manual Control (Joystick actuation), see ""Instructions/Joystick Controls.png"
-  * Mission Planner instructions (GUI Trigger buttons), see ""Instructions/Mission Planner Instructions.png"
+  * Software (high level), see "Instructions/Instructions.png".
+  * Manual Control (Joystick actuation), see "Instructions/Joystick Controls.png"
+  * Mission Planner instructions (GUI Trigger buttons), see "Instructions/Mission Planner Instructions.png"
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------
 
