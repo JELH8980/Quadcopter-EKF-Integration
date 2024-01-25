@@ -25,3 +25,7 @@ For instructions, or better understanding of the flow of:
   * Software (high level), see "Instructions.png".
   * Manual Control (Joystick actuation), see "Joystick Controls.png"
   * Mission Planner instructions (GUI Trigger buttons), see "Mission Planner Instructions.png"
+
+---------------------------------------------------------------------------------------------------------------------------------------------------
+
+If the visitor is interested in the underlying theory used during the project, then he/she is adviced to read the attached report.
