@@ -1,6 +1,6 @@
-This MATLAB-based project reflects my journey, combining concepts from my Bachelor's in Vehicle Engineering and my Master's in Robotics Systems and Control. It's an exploration into drone dynamics and localization, incorporating techniques for sensor fusion of GPS and IMU data.
-
 Key Features:
+
+---------------------------------------------------------------------------------------------------------------------------------------------------
 Sensor Fusion Simplicity: The software integrates GPS and IMU data using standard sensor fusion techniques to enhance drone localization accuracy.
 
 LQR Controller Exploration: The controller utilizes a basic Linear Quadratic Regulator (LQR) with a simple update based on the drone's yaw angle.
@@ -15,5 +15,7 @@ Mission Planner Experimentation: Plan and simulate drone missions with a basic m
 
 Manual Control Input: Test the quadcopter performance by manually controlling it with a joystick, allowing the filtered state feedback to reveal the capabilities of the quadcopter.
 
+---------------------------------------------------------------------------------------------------------------------------------------------------
 
 Your insights, feedback, and contributions are genuinely appreciated. Thank you for exploring this project.
+
